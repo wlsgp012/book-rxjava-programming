@@ -1,0 +1,29 @@
+# Compiled Class
+.class
+
+# Package Files
+*.jar
+*.war
+*.ear
+*.tar.gz
+
+# Build Path
+build/
+out/
+**/src/main/resources/public/
+
+# Log
+.log
+
+# Gradle
+.gradle
+!gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ IDEA
+.idea
+*.iws
+*.iml
+*.ipr
+
+# Misc
+.java-version

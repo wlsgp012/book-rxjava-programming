@@ -1,0 +1,17 @@
+group 'reactivejava'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.slf4j:slf4j-api:1.7.25'
+    compile 'io.reactivex.rxjava2:rxjava:2.1.3'
+    compile 'org.apache.commons:commons-lang3:3.1'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
