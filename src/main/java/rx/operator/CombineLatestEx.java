@@ -1,7 +1,6 @@
 package rx.operator;
 
 import io.reactivex.Observable;
-import io.reactivex.Observer;
 import java.util.concurrent.TimeUnit;
 import rx.common.CommonUtils;
 import rx.common.Log;
