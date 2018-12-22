@@ -9,6 +9,7 @@ public class DelayEx {
 
   public static void main(String[] args) {
     String[] data = {"1", "2", "3", "4"};
+    CommonUtils.exampleStart();
     Observable<String> source = Observable.fromArray(data).delay(100L, TimeUnit.MILLISECONDS);
     source.subscribe(Log::it);
     CommonUtils.sleep(1000);
